@@ -22,7 +22,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-family: 'PT Sans', sans-serif;
-  background-color: #ffffff;
   color: var(--pf-color-black);
   margin: 0;
 }
@@ -39,4 +38,26 @@ a {
   color: inherit;
   font-weight: bold;
   text-decoration: none;
+}
+
+.pf-sidebar {
+  background-color: var(--pf-color-darkblue);
+  color: var(--pf-color-dimwhite);
+  padding: var(--pf-padding-content);
+}
+
+.pf-content {
+  padding: var(--pf-padding-content);
+}
+
+.pf-grid-item {
+  padding: 2vw;
+}
+
+.pf-grid-item:nth-child(even) {
+  background-color: var(--pf-color-orange);
+}
+
+.pf-grid-item:nth-child(odd) {
+  background-color: var(--pf-color-yellow);
 }

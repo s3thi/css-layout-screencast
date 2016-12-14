@@ -3,23 +3,12 @@
   flex-wrap: nowrap;
 }
 
-.pf-sidebar {
-  background-color: var(--pf-color-darkblue);
-  color: var(--pf-color-dimwhite);
-  padding: var(--pf-padding-content);
-}
-
-.pf-content {
-  padding: var(--pf-padding-content);
-}
-
 .pf-grid {
   display: flex;
   flex-wrap: wrap;
 }
 
 .pf-grid-item {
-  padding: 2vw;
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
@@ -27,14 +16,6 @@
 
 .pf-grid-item p {
   flex-grow: 1;
-}
-
-.pf-grid-item:nth-child(even) {
-   background-color: var(--pf-color-orange);
-}
-
-.pf-grid-item:nth-child(odd) {
-   background-color: var(--pf-color-yellow);
 }
 
 /* Small screens. */
@@ -50,9 +31,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-  }
-
-  .pf-content {
   }
 
   .pf-grid {

@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: silver;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Georgia', serif;
+}
+
+header {
+  text-align: center;
+}
+
+.nw-box {
+  background-color: #FFFFFF;
+  padding: 1vw;
+  margin-bottom: 1rem;
+}
+
+article img {
+  max-width: 100%;
+}

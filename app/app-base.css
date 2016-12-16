@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.app-search {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1rem;
+}
+
+.app-search input[type="text"] {
+  border: solid 1px silver;
+  font-size: 1rem;
+  padding: 0.5rem;
+  flex: 1;
+}
+
+.app-search button {
+  font-size: 1rem;
+  background-color: whitesmoke;
+  border: solid 1px silver;
+}
+
+.app-chat {
+  border-bottom: solid 1px silver;
+}
+
+.app-chat-avatar img {
+  border-radius: 50%;
+  width: 5rem;
+}
+
+.app-chat-title {
+  font-weight: bold;
+}

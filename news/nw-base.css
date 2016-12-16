@@ -22,9 +22,17 @@ header {
 .nw-box {
   background-color: #FFFFFF;
   padding: 1vw;
-  margin-bottom: 1rem;
 }
 
 article img {
   max-width: 100%;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer nav {
+  padding: 5vw;
 }

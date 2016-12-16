@@ -2,20 +2,14 @@
   display: flex;
 }
 
+.nw-box {
+  margin-bottom: 1rem;
+}
+
 footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 5vw;
-}
-
-footer ul {
-  list-style: none;
-  padding: 0;
-}
-
-footer nav {
   padding: 5vw;
 }
 

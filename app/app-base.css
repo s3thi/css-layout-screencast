@@ -12,36 +12,53 @@ body {
   font-size: 16px;
   font-family: sans-serif;
   line-height: 1.5;
-}
-
-.app-search {
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 1rem;
-}
-
-.app-search input[type="text"] {
-  border: solid 1px silver;
-  font-size: 1rem;
-  padding: 0.5rem;
-  flex: 1;
-}
-
-.app-search button {
-  font-size: 1rem;
-  background-color: whitesmoke;
-  border: solid 1px silver;
+  padding: 0;
+  margin: 0;
 }
 
 .app-chat {
+  display: flex;
+  padding: 1rem;
+}
+
+.app-chat-list .app-chat {
   border-bottom: solid 1px silver;
+}
+
+.app-chat-active {
+  background-color: lightgray;
+}
+
+.app-chat-message {
+  flex: 1;
 }
 
 .app-chat-avatar img {
   border-radius: 50%;
   width: 5rem;
+  margin-right: 1rem;
 }
 
-.app-chat-title {
+.app-chat-window .app-chat-avatar img {
+  width: 3em;
+}
+
+.app-chat-sender {
+  font-weight: bold;
+}
+
+.app-chat-timestamp {
+  color: gray;
+}
+
+.app-chat-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  background-color: lightgray;
+}
+
+.app-chat-header {
   font-weight: bold;
 }

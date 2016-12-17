@@ -4,5 +4,22 @@
 }
 
 @media only screen and (max-width: 900px) {
+  .app-chat-window {
+    display: none;
+  }
+}
 
+@media only screen and (min-width: 901px) {
+  .app-container {
+    display: flex;
+  }
+
+  .app-chat-list {
+    border-right: solid 1px silver;
+    flex: 1;
+  }
+
+  .app-chat-window {
+    flex: 2;
+  }
 }

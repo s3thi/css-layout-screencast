@@ -1,14 +1,12 @@
 .app-chat {
-  display: flex;
-}
-
-.app-chat-message {
-  flex: 1;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto 1fr auto;
 }
 
 .app-chat-header {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  justify-items: center;
   align-items: center;
 }
 
@@ -20,14 +18,8 @@
 
 @media only screen and (min-width: 901px) {
   .app-container {
-    display: flex;
-  }
-
-  .app-chat-list {
-    flex: 1;
-  }
-
-  .app-chat-window {
-    flex: 2;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 2fr;
   }
 }

@@ -30,10 +30,6 @@ body {
   border-bottom: solid 1px silver;
 }
 
-.app-chat-active {
-  background-color: lightgray;
-}
-
 .app-chat-avatar img {
   border-radius: 50%;
   width: 5rem;
@@ -61,5 +57,9 @@ body {
 @media only screen and (min-width: 901px) {
   .app-chat-list {
     border-right: solid 1px silver;
+  }
+
+  .app-chat-active {
+    background-color: lightgray;
   }
 }

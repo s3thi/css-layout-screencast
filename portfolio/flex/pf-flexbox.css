@@ -1,6 +1,5 @@
 .pf-container {
   display: flex;
-  flex-wrap: nowrap;
 }
 
 .pf-grid {
